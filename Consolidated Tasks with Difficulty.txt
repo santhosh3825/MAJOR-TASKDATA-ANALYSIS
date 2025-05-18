@@ -1,0 +1,170 @@
+**Consolidated Tasks with Difficulty Levels**
+
+**For MySQL**
+
+* **Basic:**
+    1. Find the total number of orders placed in each year. 
+    2. List all products that have never been returned. 
+    3. List all orders placed by customers in the city of 'New York City'. 
+    4. Count the number of unique customers in each state. 
+    5. Find the customer who placed the largest single order in terms of quantity. 
+    6. **Identify the customers who have placed more than 10 orders.** 
+
+* **Intermediate:**
+    1. Calculate the average profit margin for each product category. 
+    2. Calculate the total sales revenue for each year, grouped by customer segment. 
+    3. Identify the most popular shipping mode based on the number of orders. 
+    4. Find the customer with the longest time between their first and last orders. 
+    5. Determine the top 5 customers with the highest total sales amount. 
+    6. **Calculate the total number of orders placed by each customer in the year 2016.**
+
+* **Advanced:**
+    1. Calculate the average delivery time (from purchase to delivered timestamp) grouped by state. 
+    2. Perform a cohort analysis to calculate retention rates of customers grouped by their first purchase month. 
+    3. Identify the most popular product category for each year based on the number of orders. 
+    4. Calculate the lifetime value (LTV) of each customer based on their purchase history. 
+    5. Identify sellers with consistently low review scores over the past 2 years. (Assuming seller data is available)
+    6. **Find the top 3 cities with the highest average order value.**
+
+**For Python**
+
+* **Basic:**
+    1. Create a scatter plot to visualize the relationship between 'Retail Sales' and 'Discount'. 
+    2. Calculate the average 'Profit' for each 'Category' and visualize it using a bar chart. 
+    3. Clean the 'Customer Name' column by removing any leading/trailing spaces and converting all names to lowercase. 
+    4. Create a function to calculate the 'Customer Lifetime Value' based on order history. 
+    5. Create a histogram to visualize the distribution of order quantities. 
+    6. **Calculate the percentage of orders that were shipped on the same day they were placed.**
+
+* **Intermediate:**
+    1. Perform exploratory data analysis on the 'Order Date' column to identify any trends or seasonality in order volume. 
+    2. Use a library like `seaborn` to generate a heatmap of the correlation matrix between different numerical features. 
+    3. Use a machine learning model (e.g., linear regression) to predict 'Retail Sales' based on 'Quantity' and 'Discount'. 
+    4. Calculate the correlation between freight value and total order value, aggregating by seller or product categories. 
+    5. Generate a summary table showing the average order value for the top 5 states with the highest number of orders. 
+    6. **Identify any potential outliers in the 'Profit' column using box plots.**
+
+* **Advanced:**
+    1. Use a clustering algorithm (e.g., K-Means) to segment customers based on their purchase behavior. 
+    2. Perform sentiment analysis on customer reviews (if available) to identify areas for improvement. 
+    3. Develop a predictive model to forecast monthly sales for the next 12 months using aggregated sales data instead of individual transactions. 
+    4. Perform feature engineering to create new variables for predicting order cancellation probabilities. 
+    5. Create an interactive visualization to analyze customer retention rates by cohorts. 
+    6. **Build a decision tree model to predict which customers are most likely to make a repeat purchase.**
+
+**For Power BI**
+
+* **Basic:**
+    1. Create a map visualization to show the geographic distribution of customers. 
+    2. Create a bar chart to visualize the top 10 selling products. 
+    3. Create a pie chart visualizing payment methods used across all orders. 
+    4. Create a line chart showing the trend of total orders per month for each year. 
+    5. Design a dashboard to track key performance indicators (KPIs) such as total sales, number of orders, and average order value. 
+    6. **Create a bar chart to show the top 5 customers by total sales amount.**
+
+* **Intermediate:**
+    1. Build an interactive dashboard to filter sales by state, city, and product category. 
+    2. Create a visualization of freight value contribution to total costs for different sellers. 
+    3. Build a stacked bar chart of revenue by product category for each state. 
+    4. Design a funnel chart to visualize the order-to-delivery process and identify potential bottlenecks. 
+    5. Develop a dashboard to analyze monthly retention rates for customer cohorts. 
+    6. **Create a dashboard to compare the sales performance of different sales channels (if available).**
+
+* **Advanced:**
+    1. Create a dashboard to display seller performance (e.g., revenue, average delivery time, review scores). 
+    2. Build a time-series forecasting dashboard for monthly sales predictions. 
+    3. Visualize the impact of reviews on product sales using scatter plots and trend lines. 
+    4. Develop a dashboard to explore product profitability by category and seller. 
+    5. Design a dashboard to analyze customer segmentation based on their purchase history and demographics. 
+    6. **Create a dashboard that allows users to interactively explore the relationship between customer demographics and purchase behavior.**
+
+I've added a few more challenging tasks to each level for all three tools, making the list more comprehensive. I hope this enhanced version is even more helpful!
+
+Thank you for sharing the dataset! Based on the provided columns and existing visualizations, here are some additional business requirements and tasks for generating insightful Tableau visualizations:
+
+---
+
+### **Advanced Business Requirements and Visualization Ideas:**
+
+#### **1. Customer Behavior Analysis**
+- **Repeat Customers vs. New Customers:**
+  - Visualize the ratio of repeat customers vs. new customers on a monthly or yearly basis.
+- **Customer Lifetime Value (CLV):**
+  - Aggregate sales and profits by `Customer ID` to highlight high-value customers.
+
+---
+
+#### **2. Product Insights**
+- **Product Return Analysis:**
+  - Percentage of products returned by `Sub-Category` and `Category`.
+  - Create a heatmap showing returns by `Region` or `Ship Mode`.
+- **Product Sales and Discount Correlation:**
+  - Use a scatter plot to visualize how discounts impact sales for top-selling products.
+
+---
+
+#### **3. Financial Analysis**
+- **Profit Trends by Region:**
+  - Show trends of profits by `Region` across months or years.
+- **Loss-Making Products:**
+  - Identify products with negative profits and their impact on total sales.
+
+---
+
+#### **4. Operational Metrics**
+- **Order Processing Time Analysis:**
+  - Analyze the distribution of `Order_Processing_Time` by `Ship Mode` and `Category`.
+- **Delivery Delays:**
+  - Identify delayed deliveries and their relation to `Ship Mode` and `Region`.
+
+---
+
+#### **5. Geographic Insights**
+- **Sales Contribution by Region:**
+  - Pie chart or treemap showing regional contributions to overall sales and profits.
+- **Customer Density Heatmap:**
+  - Create a map showing the density of customers by `City` or `State`.
+
+---
+
+#### **6. Seasonal Trends**
+- **Sales by Season:**
+  - Highlight seasonal trends in sales, profits, and order volumes by `Category` or `Region`.
+- **Seasonal Discount Effectiveness:**
+  - Analyze whether higher discounts during specific seasons lead to increased sales.
+
+---
+
+#### **7. Shipment and Logistics**
+- **Shipping Performance:**
+  - Average `Order_Processing_Time` and delivery delays by `Ship Mode` and `State`.
+- **Shipping Cost Efficiency:**
+  - Compare sales and profits to shipment methods for cost-effectiveness.
+
+---
+
+#### **8. Cohort Analysis**
+- **Monthly Retention Rates by Cohort and Region:**
+  - Layer cohort retention data by region to understand geographical patterns.
+- **Customer Growth by Cohort:**
+  - Line chart showing the growth in customer acquisition over time for different cohorts.
+
+---
+
+#### **9. Segmentation**
+- **Sales and Profit by Segment:**
+  - Compare `Sales`, `Profit`, and `Quantity` for different customer segments.
+- **Discount Utilization by Segment:**
+  - Visualize the impact of discounts on each segment’s purchase behavior.
+
+---
+
+#### **10. Advanced KPIs**
+- **Top 10 States by Profit Margin:**
+  - Rank states by their average profit margins.
+- **Underperforming Categories:**
+  - Highlight categories with low sales and profits over a specific time frame.
+
+---
+
+Would you like me to explore or design calculations for any of these visualizations in Tableau? Let me know if you need help implementing these!
